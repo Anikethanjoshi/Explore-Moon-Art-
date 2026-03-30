@@ -35,4 +35,4 @@ A common issue with full-screen background sliders is that bright images can mak
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git](https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git)
+   git clone https://github.com/Anikethanjoshi/Explore-Moon-Art-.git
