@@ -1,6 +1,11 @@
-# 🌙 Explore Moon Art - Dynamic Full-Screen Carousel
+# 🌙 Explore Moon Art - Immersive Ambient Audio Slider
 
-A sleek, modern, and immersive landing page experience featuring full-screen background image transitions driven by user interaction. This project ditches the traditional, boring slide-by-slide carousel in favor of an interactive "focal point" layout.
+A sleek, modern, and highly interactive landing page. Instead of a traditional sliding carousel, this project uses the visual weight of full-screen imagery and atmospheric audio to create an immersive experience.
+
+![Project Preview](preview.gif)
+[Screencast from 2026-03-30 19-14-56.webm](https://github.com/user-attachments/assets/68e200a2-a4d2-4bc6-b8cc-35a881380815)
+
+
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -8,31 +13,25 @@ A sleek, modern, and immersive landing page experience featuring full-screen bac
 
 ---
 
-## 🚀 The Core Concept & Visual Logic
+## 🚀 How it Works (The Logic)
 
-Instead of just sliding static cards horizontally, this project uses the visual weight of full-screen imagery to tell a story:
-1. **The Hero UI** (Text and Call-to-Action) stays pinned and accessible in the foreground.
-2. **The Dynamic Slider** at the right acts as an interactive deck of thumbnails.
-3. When a user clicks a card or a dot, the script captures the selected image and instantly projects it across the **entire viewport background**.
-
-### 🧠 How the Code Solves the "Overlay Problem"
-
-A common issue with full-screen background sliders is that bright images can make white text impossible to read. To combat this and make the project production-ready:
-* **The `::before` Pseudo-Element Trick:** I used CSS to put an absolute, 50% opacity dark overlay purely on the background wrapper. This guarantees high contrast for the text while keeping the beautiful background art visible.
-* **The CSS Variable Link:** Instead of hardcoding image paths into JavaScript, I used inline CSS variables (`--img: url(...)`) directly in the HTML cards. This makes the project highly modular—to change an image, you only have to edit the HTML, not the script!
+I wanted to build something that stands out from regular image sliders:
+1. **Interactive Thumbnails:** The small UI cards on the right act as a clickable deck. 
+2. **Full-Screen Projection:** Clicking a card or a dot grabs its specific background image and smoothly projects it across the *entire* screen.
+3. **Smart Overlay:** I used a CSS `::before` pseudo-element to place a dark tint on the background. This ensures that the white header text is always readable, no matter how bright the background art is!
 
 ---
 
-## 🛠️ Features
+## 🛠️ Key Features
 
-* ⚡ **Two-Way Synchronization:** Clicking a card activates its dot, and clicking a dot activates its corresponding card.
-* 🎭 **Pure CSS Transitions:** Soft cubic-bezier easing gives the thumbnail cards and full-screen background fade a high-end, cinematic feel.
-* 📱 **Fixed Content Layout:** Prevents the main heading from shifting around when users are interacting with the controls.
+* ⚡ **Two-Way Sync:** Clicking a card activates its matching dot, and clicking a dot opens that specific card!
+* 🎵 **Ambient Audio Engine:** Features an optional space-themed background track. It respects modern browser policies by requiring a user click to play.
+* 🎭 **Glassmorphism UI:** The music button and control cards use a frosted-glass blur effect.
 
 ---
 
-## 💻 How to Run This Locally
+## 💻 How to Run This Project
 
-1. Clone the repository:
+1. Clone this repository to your local computer:
    ```bash
-   git clone https://github.com/Anikethanjoshi/Explore-Moon-Art-.git
+   git clone [https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git](https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git)
